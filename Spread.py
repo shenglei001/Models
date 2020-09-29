@@ -167,6 +167,7 @@ for data,actual in zip(X0[d:],y0[d:]):
     x = np.array([data])
     prediction = np.dot(x,beta)
     print('prediction = '+str(prediction[0,0])+' actual = '+str(actual))
+#-----
 
 
 
